@@ -2,8 +2,8 @@
   window["env"] = window["env"] || {};
 
   // BackEnd Environment variables
-  window["env"]["fineractApiUrls"] = 'http://localhost:8080';
-  window["env"]["fineractApiUrl"]  = 'http://localhost:8080';
+  window["env"]["fineractApiUrls"] = 'https://test.meysa.co.ke';
+  window["env"]["fineractApiUrl"]  = 'https://test.meysa.co.ke';
 
   window["env"]["apiProvider"] = '/fineract-provider/api';
   window["env"]["apiVersion"]  = '/v1';

@@ -2,8 +2,11 @@
   window["env"] = window["env"] || {};
 
   // BackEnd Environment variables
-  window["env"]["fineractApiUrls"] = 'https://test.meysa.co.ke';
-  window["env"]["fineractApiUrl"]  = 'https://test.meysa.co.ke';
+  // window["env"]["fineractApiUrls"] = 'https://test.meysa.co.ke';
+  // window["env"]["fineractApiUrl"]  = 'https://test.meysa.co.ke';
+
+ window["env"]["fineractApiUrls"] = 'http://51.79.50.137:8080';
+  window["env"]["fineractApiUrl"]  = 'http://51.79.50.137:8080';
 
   window["env"]["apiProvider"] = '/fineract-provider/api';
   window["env"]["apiVersion"]  = '/v1';
